@@ -33,7 +33,7 @@ breedSelectEl.addEventListener("change", (e) => {
 
     fetchCatByBreed(breedId).then((data) => {
         const { url, breeds } = data[0]
-        const { name, description, temparament } = breeds[0];
+        const { name, description, temperament } = breeds[0];
 
         catInfoEl.innerHTML = `
             <img src="${url}" alt='{name}' width="400"/>
