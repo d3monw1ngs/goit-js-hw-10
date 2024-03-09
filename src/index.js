@@ -40,7 +40,7 @@ breedSelectEl.addEventListener("change", (e) => {
             <div class="box">
                 <h2>${name}</h2>
                 <p>${description}</p>
-                <p>${temparament}</p>
+                <p>${temperament}</p>
             </div>
         `;
         catInfoEl.classList.remove("is-hidden");
